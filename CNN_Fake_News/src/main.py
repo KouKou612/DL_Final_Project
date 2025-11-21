@@ -9,10 +9,9 @@ def main():
     # File paths - update these according to your file locations
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     MODEL_DIR = os.path.join(BASE_DIR, "models")
-    RESULTS_DIR = os.path.join(BASE_DIR, "results")
-    train_path = os.path.join(BASE_DIR,"..", "data/train.csv")
-    test_path = os.path.join(BASE_DIR,"..",  "data/test.csv")
-    eval_path = os.path.join(BASE_DIR,"..",  "data/evaluation.csv")
+    train_path = os.path.join(BASE_DIR, "data/train.csv")
+    test_path = os.path.join(BASE_DIR,  "data/test.csv")
+    eval_path = os.path.join(BASE_DIR,  "data/evaluation.csv")
     
     # Step 1: Load data
     print("Step 1: Loading data...")
