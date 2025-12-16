@@ -8,7 +8,7 @@ There are 5 models for fake images detection: CNN, diffusion, gan, resnet, and S
 The dataset for fake images detection is from `https`
 
 ## CNN_Fake_News
-Install dependencies listed in `requirements.txt` in the CNN_Fake_News folder to run this part. 
+Install dependencies listed in `requirements.txt` in `CNN_Fake_News/` to run this part. 
 
 Run `main.py` in `src/` to start training.
 
@@ -24,7 +24,7 @@ See `results` for plots for our previous training.
 
 
 ## Fake_Images
-Install dependencies listed in `requirements.txt` in the Fake_Images folder to run this part. 
+Install dependencies listed in `requirements.txt` in the `Fake_Images/`  to run this part. 
 
 Put the dataset folder in `Fake_Images/`, name it to `ddata`
 
