@@ -42,9 +42,12 @@ See `results` for plots for our previous training.
 
 ## Contribution 
 Hao Huang: CNN_Fake_News, Revised `Image_DL.ipynb` to `cnn.py`, `diffusion.py`, `gan.py`, `resnet.py`, `svm.py`, `trainer.py`, training of all these models.
-Zhiyuan Li:
+
 Guoqi Chen:
-Ruiyang Wang:
+
+Ruiyang Wang: Image_DL.ipynb 
+
+Zhiyuan Li: Preprocessed the Fake Image dataset & Tested Image_DL.ipynb and gave out suggestions 
 
 
 
