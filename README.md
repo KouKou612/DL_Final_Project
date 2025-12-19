@@ -45,7 +45,7 @@ Hao Huang: CNN_Fake_News, Revised `Image_DL.ipynb` to `cnn.py`, `diffusion.py`, 
 
 Guoqi Chen:
 
-Ruiyang Wang: Image_DL.ipynb 
+Ruiyang Wang: Using existing literature to identify models suitable for image-based fake news detection and implementing a basic image model as a foundation for future training.
 
 Zhiyuan Li: Preprocessed the Fake Image dataset & Tested Image_DL.ipynb and gave out suggestions 
 
