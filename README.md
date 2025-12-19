@@ -18,9 +18,15 @@ See `results` for plots for our previous training.
 
 
 ## LR+SVM_Fake_News.ipynb
+This notebook implements text-based fake news detection using TF-IDF with Logistic Regression and Linear SVM.
 
+Make sure the dataset files `train (2).csv` `evaluation.csv` and `test (1).csv` are in the same directory as the notebook
 
+Run LR+SVM_Fake_News.ipynb to train and evaluate both models.
 
+Model performance (accuracy, classification report, and confusion matrix) will be printed in the notebook output.
+
+The notebook reports results on validation, evaluation, and test splits and serves as a baseline comparison for CNN-based fake news models.
 
 
 ## Fake_Images
@@ -39,7 +45,7 @@ This notebook contains the original end-to-end implementation for image-based fa
 ## Contribution 
 Hao Huang: CNN_Fake_News, Revised `Image_DL.ipynb` to `cnn.py`, `diffusion.py`, `gan.py`, `resnet.py`, `svm.py`, `trainer.py`, training of all these models.
 
-Guoqi Chen:
+Guoqi Chen: Implemented the text-based fake news classification pipeline using TF-IDF with Logistic Regression and Linear SVM in `LR+SVM_Fake_News.ipynb`, identified the data and handled data preprocessing, model training, validation, testing, error analysis, and generating the reported metrics/results.
 
 Ruiyang Wang: Using existing literature to identify models suitable for image-based fake news detection and implementing a basic image model as a foundation for future training.
 
