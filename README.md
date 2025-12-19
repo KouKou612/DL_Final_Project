@@ -33,7 +33,7 @@ Run `cnn.py`, `diffusion.py`, `gan.py`, `resnet.py`, `svm.py` to train correspon
 See `results` for plots for our previous training.
 
 ### Image_DL.ipynb
-
+This notebook contains the original end-to-end implementation for image-based fake image detection, including data loading, preprocessing, model training, and evaluation. It implements multiple approaches, including traditional machine learning baselines (LBP + SVM) and deep learning models such as a custom CNN, ResNet-based transfer learning, GAN-style discriminator models, and diffusion-inspired noisy CNNs. The notebook serves as the primary experimental prototype from which the standalone training scripts were later refactored. You can find further improvement in `cnn.py`, `diffusion.py`, `gan.py`, `resnet.py`, `svm.py`.
 
 ### New_dl.py
 
